@@ -104,7 +104,7 @@ BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
 * v. black beans(282)*
 
 **2.** 
-BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name ''*.*sv''
+BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name '*.*sv'
 * ./data/airlines.csv
 * ./data/chipotle.tsv
 * ./data/drinks.csv
