@@ -98,30 +98,30 @@ BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
 
 **1.**
 	*i. The columns mean Order Number, Item Qty, Item, Ingredients/Flavor, and Total Item Price. Each row is an order of a specific item.
-	ii. 1834
-	iii. 4623
-	iv. chicken(553)
-	v. black beans(282)*
+	*ii. 1834
+	*iii. 4623
+	*iv. chicken(553)
+	*v. black beans(282)*
 
 **2.** 
-*BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name *.*sv
-	./data/airlines.csv
-	./data/chipotle.tsv
-	./data/drinks.csv
-	./data/hitters.csv
-	./data/housing-data.csv
-	./data/imdb_1000.csv
-	./data/titanic.csv
-	./data/ufo.csv
-	./data/vehicles_test.csv
-	./data/vehicles_train.csv
-	./data/yelp.csv*
+*BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name '*.*sv'
+	*./data/airlines.csv
+	*./data/chipotle.tsv
+	*./data/drinks.csv
+	*./data/hitters.csv
+	*./data/housing-data.csv
+	*./data/imdb_1000.csv
+	*./data/titanic.csv
+	*./data/ufo.csv
+	*./data/vehicles_test.csv
+	*./data/vehicles_train.csv
+	*./data/yelp.csv*
 
 **3.** 
-*BRIANs-MacBook-Air:dat_sf_19 bhambre$ grep -r -i 'dictionary' . | wc -l
-       5*
+BRIANs-MacBook-Air:dat_sf_19 bhambre$ grep -r -i 'dictionary' . | wc -l
+       *5 occurences
 
 **4.** 
-*BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort*
+BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
 
-*Chicken Bowl is the most popular food item and bottled water is the most popular drink item*
+Chicken Bowl is the most popular food item and bottled water is the most popular drink item
