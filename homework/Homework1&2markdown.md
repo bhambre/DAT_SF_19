@@ -104,7 +104,7 @@ BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
 * v. black beans(282)*
 
 **2.** 
-* BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name ***.***sv
+* BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name ****.****sv
 * ./data/airlines.csv
 * ./data/chipotle.tsv
 * ./data/drinks.csv
@@ -123,4 +123,4 @@ BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
 
 **4.** 
 * BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
-* Chicken Bowl is the most popular food item and bottled water is the most popular drink item
+* Chicken Bowl is the most popular food item and bottled water is the most popular drink item. Carnitas Salad is the least popular item.
