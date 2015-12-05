@@ -1,3 +1,6 @@
+**Brian Hambre**
+**DAT_SF_19**
+
 **1.**
 
 BRIANs-MacBook-Air:~ bhambre$ head chipotle.tsv
