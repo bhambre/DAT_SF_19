@@ -1,21 +1,27 @@
 **1.**
+
 BRIANs-MacBook-Air:~ bhambre$ head chipotle.tsv
 
 BRIANs-MacBook-Air:~ bhambre$ tail chipotle.tsv
 
 BRIANs-MacBook-Air:~ bhambre$ wc -l chipotle.tsv
-    4623 chipotle.tsv
+    
+    4623 
 
 BRIANs-MacBook-Air:~ bhambre$ grep -i 'chicken burrito' chipotle.tsv | wc -l
+     
      553
 
 BRIANs-MacBook-Air:~ bhambre$ grep -i 'steak burrito' chipotle.tsv | wc -l
+     
      368
 
 BRIANs-MacBook-Air:~ bhambre$ grep -i 'chicken burrito' chipotle.tsv | grep -i 'black beans' | wc -l
+     
      282
 
 BRIANs-MacBook-Air:~ bhambre$ grep -i 'chicken burrito' chipotle.tsv | grep -i 'pinto beans' | wc -l
+     
      105
 
 * i. The columns mean Order Number, Item Qty, Item, Ingredients/Flavor, and Total Item Price. Each row is an order of a specific item.
@@ -25,7 +31,8 @@ BRIANs-MacBook-Air:~ bhambre$ grep -i 'chicken burrito' chipotle.tsv | grep -i '
 * v. black beans(282)
 
 **2.** 
-* BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name ****.****sv
+
+BRIANs-MacBook-Air:dat_sf_19 bhambre$ find . -name ****.****sv
 * ./data/airlines.csv
 * ./data/chipotle.tsv
 * ./data/drinks.csv
@@ -39,64 +46,117 @@ BRIANs-MacBook-Air:~ bhambre$ grep -i 'chicken burrito' chipotle.tsv | grep -i '
 * ./data/yelp.csv*
 
 **3.** 
-* BRIANs-MacBook-Air:dat_sf_19 bhambre$ grep -r -i 'dictionary' . | wc -l
-*5
+
+BRIANs-MacBook-Air:dat_sf_19 bhambre$ grep -r -i 'dictionary' . | wc -l
+
+5
+
 * 5 occurences
 
 **4.** 
 * Chicken Bowl is the most popular food item and bottled water is the most popular drink item. 
 
 BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
-   
+      
    1 Carnitas Salad
+   
    1 Chips and Mild Fresh Tomato Salsa
+   
    1 Veggie Crispy Tacos
+   
    1 item_name
+   
    2 Bowl
+   
    2 Crispy Tacos
+   
    2 Salad
+   
    4 Steak Salad
+   
    6 Burrito
+   
    6 Carnitas Salad Bowl
+   
    6 Veggie Salad
+   
    7 Carnitas Crispy Tacos
+   
    7 Veggie Soft Tacos
+   
    9 Chicken Salad
+  
   10 Barbacoa Salad Bowl
+  
   11 Barbacoa Crispy Tacos
+  
   18 Chips and Roasted Chili-Corn Salsa
+  
   18 Veggie Salad Bowl
+  
   20 Chips and Tomatillo-Red Chili Salsa
+  
   20 Izze
+  
   22 Chips and Roasted Chili Corn Salsa
+  
   25 Barbacoa Soft Tacos
+  
   27 Nantucket Nectar
+  
   29 Steak Salad Bowl
+  
   31 Chips and Tomatillo-Green Chili Salsa
+  
   35 Steak Crispy Tacos
+  
   40 Carnitas Soft Tacos
+  
   43 Chips and Tomatillo Green Chili Salsa
+  
   47 Chicken Crispy Tacos
+  
   48 Chips and Tomatillo Red Chili Salsa
+  
   54 6 Pack Soft Drink
+  
   55 Steak Soft Tacos
+  
   59 Carnitas Burrito
+  
   66 Barbacoa Bowl
+  
   68 Carnitas Bowl
+  
   85 Veggie Bowl
+  
   91 Barbacoa Burrito
+  
   95 Veggie Burrito
+ 
  101 Side of Chips
+ 
  104 Canned Soda
+ 
  110 Chicken Salad Bowl
+ 
  110 Chips and Fresh Tomato Salsa
+ 
  115 Chicken Soft Tacos
+ 
  162 Bottled Water
+ 
  211 Chips
+ 
  211 Steak Bowl
+ 
  301 Canned Soft Drink
+ 
  368 Steak Burrito
+ 
  479 Chips and Guacamole
+ 
  553 Chicken Burrito
+ 
  726 Chicken Bowl
 
