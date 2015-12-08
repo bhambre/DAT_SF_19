@@ -82,7 +82,7 @@ BRIANs-MacBook-Air:dat_sf_19 bhambre$ grep -r -i 'dictionary' . | wc -l
 * 5 occurences
 
 **4.** 
-* Chicken Bowl is the most popular food item and bottled water is the most popular drink item. 
+* Chicken Bowl is the most popular food item and canned soft drink is the most popular drink item. 
 
 BRIANs-MacBook-Air:~ bhambre$ cut -f3 chipotle.tsv | sort | uniq -c | sort
       
