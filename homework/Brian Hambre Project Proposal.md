@@ -1,9 +1,13 @@
 **Brian Hambre**
+
 **12/16/2015**
+
 **Project Proposal**
+
 **DAT_SF_19**
 
 **Predicting Support Service Levels**
+
 I’m planning to predict Service Levels for our support team at my company? Service levels are based on how quickly our support team can get to a call, any call that is dropped or waits longer than a specific time brings down the Service Level for that day.
 
 I plan on using a dataset which includes # of support reps/location, calls taken/location, dropped calls, total calls, and service level/day.  
